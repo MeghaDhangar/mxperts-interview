@@ -3,6 +3,8 @@ import {useEffect,useState} from 'react';
 import {fetchStoriesData} from '../../api';
 import {Storie} from '../Storie/Storie';
 
+
+
 export const AllStories = () => {
     const [stories,setStories] = useState([]);
     useEffect(() => {
@@ -25,7 +27,6 @@ export const AllStories = () => {
                     })
                 }
             </div>
-
         </div>
     )
 }
